@@ -48,7 +48,7 @@
             >;
         };
 
-        frogLeft {
+        frog_left {
             // Ref: https://zmkfirmware.dev/docs/codes/
             // ----------------------------------------------------------------------------------------------------------------------------------
             // |  ESC   |   1   |   2  |    3   |   4   |  5   |                   |  6   |    7     |  8  |  9  |  0  |   -   |   |  =  | LY0  | COPY |
@@ -60,13 +60,13 @@
             bindings = <
                 &kp ESC   &kp N1  &kp N2     &kp N3        &kp N4      &kp N5                                      &kp N6     &kp N7  &kp N8        &kp N9    &kp N0    &kp MINUS   &kp EQUAL  &mo 0   &kp LC(C)
                 &kp TAB   &kp Q   &kp W      &kp E         &kp R       &kp T                                       &kp Y      &kp U   &kp I         &kp O     &kp P     &kp LBKT    &kp RBKT   &mo 1   &kp LC(V)
-               &kp ENTER   &kp A   &kp S      &kp D         &kp F       &kp G                                       &kp H      &kp J   &kp K         &kp L     &kp SEMI  &kp APOS               &kp UP
+              &kp ENTER   &kp A   &kp S      &kp D         &kp F       &kp G                                       &kp H      &kp J   &kp K         &kp L     &kp SEMI  &kp APOS               &kp UP
               &kp LSHFT   &kp Z   &kp X      &kp C         &kp V       &kp B                                       &kp N      &kp M   &kp COMMA     &kp DOT   &kp FSLH  &kp RSHFT   &kp LEFT  &kp DOWN &kp RIGHT
-                                             &kp LCTRL  &kp LEFT_GUI  &kp backspace  &lt frogRight SPACE         &kp SPACE  &kp ENTER  &mo 1   &kp LEFT_GUI
+                                             &kp LCTRL  &kp LEFT_GUI  &kp BACKSPACE  &lt frog_right SPACE          &kp SPACE  &kp ENTER  &mo 1   &kp LEFT_GUI
             >;
         };
 
-        frogRight {
+        frog_right {
             // Ref: https://zmkfirmware.dev/docs/codes/
             // ----------------------------------------------------------------------------------------------------------------------------------
             // |  ESC   |   0   |   9  |    8   |   7   |  6   |                   |  6   |    7     |  8  |  9  |  0  |   -   |   |  =  | LY0  | COPY |
@@ -78,7 +78,7 @@
             bindings = <
                 &kp ESC   &kp N0  &kp N9     &kp N8        &kp N7      &kp N6                                      &kp N6     &kp N7  &kp N8        &kp N9    &kp N0    &kp MINUS   &kp EQUAL  &mo 0   &kp LC(C)
                 &kp TAB   &kp P   &kp O      &kp I         &kp U       &kp Y                                       &kp Y      &kp U   &kp I         &kp O     &kp P     &kp LBKT    &kp RBKT   &mo 1   &kp LC(V)
-               &kp ENTER   &kp ;   &kp L      &kp K         &kp J       &kp H                                       &kp H      &kp J   &kp K         &kp L     &kp SEMI  &kp APOS               &kp UP
+              &kp ENTER   &kp ;   &kp L      &kp K         &kp J       &kp H                                       &kp H      &kp J   &kp K         &kp L     &kp SEMI  &kp APOS               &kp UP
               &kp LSHFT   &kp /   &kp .      &kp ,         &kp M       &kp N                                       &kp N      &kp M   &kp COMMA     &kp DOT   &kp FSLH  &kp RSHFT   &kp LEFT  &kp DOWN &kp RIGHT
                                              &kp LCTRL  &kp LEFT_GUI  &kp BACKSPACE  &lt frogRight SPACE         &kp SPACE  &kp ENTER  &mo 1   &kp LEFT_GUI
             >;
