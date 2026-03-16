@@ -15,5 +15,5 @@
 include:
   - board: nice_nano_v2/nrf52840
     shield: breeze_left
-  - board: nice_nano_v2
-    shield: breeze_right/nrf52840
+  - board: nice_nano_v2/nrf52840
+    shield: breeze_right
